@@ -10,7 +10,7 @@ void setup() {
 void loop() {
 // envoie de la trame test, remplacer les random par les valeurs capteur
   Serial.print("H"); // caractere de début de trame
-  Serial.print("/");
+  Serial.print("/"); // séparateur de champs
   Serial.print(random(-20,40)); // température
   Serial.print("/");
   Serial.print(random(0,100)); // humidité
