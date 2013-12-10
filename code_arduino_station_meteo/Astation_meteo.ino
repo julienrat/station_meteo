@@ -17,6 +17,6 @@ void loop() {
   Serial.print("/");
   Serial.print(random(0,1000)); // pression
   Serial.print("/");
-  Serial.println();
+  Serial.println(); // envoi du retour chariot (LF)
   delay(1000);        // delay d'une seconde
 }
