@@ -21,7 +21,7 @@ String temp=""; // variable globale température
 String hum=""; // variable globale humidité
 String pression=""; // variable globale de pression 
 PrintWriter fichier; // création de l'objet "fichier"
-int LF=10; // valeur du retour chariot en ASCII
+int LF=10; // valeur du retour chariot en ASCII ATTENTION SOUS WINDOWS LA FIN DE LIGNE 13 10 adapter en fonction
 
 PImage fond; // objet image
 PFont police_temp, police_hum_pression ; // objet police de texte
